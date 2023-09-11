@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Agregar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="stacked">Nuevo Chocolate</ion-label>
+    <ion-input [(ngModel)]="nuevoElemento"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="agregarElemento()">Agregar</ion-button>
+</ion-content>
